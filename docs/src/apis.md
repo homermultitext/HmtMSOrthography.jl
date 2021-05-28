@@ -11,6 +11,6 @@ tokentypes
 ## Internals
 
 ```@docs
-HmtMSOrthography.tokenizeMSGreek
-HmtMSOrthography.splitPunctuation
+ManuscriptOrthography.tokenizeMSGreek
+ManuscriptOrthography.splitPunctuation
 ```

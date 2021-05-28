@@ -8,6 +8,6 @@ end
 
 @testset "Test splitting words on punctuation" begin
     s = "κακῶς⁑"
-    splitup = HmtMSOrthography.splitPunctuation(s)
+    splitup = ManuscriptOrthography.splitPunctuation(s)
     @test length(splitup) == 2
 end

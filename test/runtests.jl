@@ -1,4 +1,4 @@
-using HmtMSOrthography
+using ManuscriptOrthography
 using Test
 using Orthography, PolytonicGreek
 using Unicode
