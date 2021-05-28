@@ -7,7 +7,7 @@ Pkg.activate(".")
 Pkg.instantiate()
 
 using Documenter, DocStringExtensions
-using AtticGreek
+using HmtMSOrthography
 
 makedocs(
     sitename = "HmtMSOrthography.jl",
