@@ -34,5 +34,6 @@ export HmtMSOrthography
 
 
 include("ortho.jl")
+include("lexical.jl")
 
 end # module

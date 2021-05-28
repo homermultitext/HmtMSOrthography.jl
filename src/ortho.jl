@@ -1,5 +1,5 @@
 "An orthographic system for texts in the pre-Euclidean Attic alphabet."
-struct AtticOrthography <: PolytonicGreek.GreekOrthography
+struct MSOrthography <: PolytonicGreek.GreekOrthography
     codepoints
     tokencategories
     tokenizer
@@ -9,7 +9,7 @@ end
 
 $(SIGNATURES)    
 """
-function codepoints(attic::AtticOrthography)
+function codepoints(msortho::MSOrthography)
     attic.codepoints
 end
 
@@ -18,7 +18,7 @@ end
 
 $(SIGNATURES)    
 """
-function tokentypes(attic::AtticOrthography)
+function tokentypes(msortho::MSOrthography)
     attic.tokencategories
 end
 
@@ -26,8 +26,8 @@ end
 
 $(SIGNATURES)    
 """
-function consonants(attic::AtticOrthography)
-    atticconsonants()
+function consonants(msortho::MSOrthography)
+    consonants(literaryGreek())
 end
 
 
@@ -35,8 +35,8 @@ end
 
 $(SIGNATURES)    
 """
-function vowels(attic::AtticOrthography)
-    atticvowels()
+function vowels(msortho::MSOrthography)
+    vowels(literaryGreek())
 end
 
 
