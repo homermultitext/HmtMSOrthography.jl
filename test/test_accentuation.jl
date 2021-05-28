@@ -12,14 +12,12 @@ end
     @test rmaccents(s, lg) == expected
 end
 
-
 @testset "Test adding acute accents to vowels" begin
     @test HmtMSOrthography.addacute("α") == "ά"
     @test HmtMSOrthography.addacute("αυ") == "αύ"
     @test HmtMSOrthography.addacute("ᾀ") == "ᾄ"
     @test HmtMSOrthography.addacute("ϊ") == "ΐ"
 end
-
 
 @testset "Test adding circumflex accents to vowels" begin
     @test HmtMSOrthography.addcircumflex("α") == "ᾶ"
