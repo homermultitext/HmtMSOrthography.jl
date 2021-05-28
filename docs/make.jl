@@ -10,17 +10,12 @@ using Documenter, DocStringExtensions
 using AtticGreek
 
 makedocs(
-    sitename = "AtticGreek.jl",
+    sitename = "HmtMSOrthography.jl",
     pages = [
-        "Home" => "index.md",
-        "User's guide" => Any[
-            "guide.md",
-            "greek.md"
-        ],
-        "API documentation" => "api.md"
+        "Home" => "index.md"
     ]
 )
 
 deploydocs(
-    repo = "github.com/neelsmith/AtticGreek.jl.git",
+    repo = "github.com/homermultitext/HmtMSOrthography.jl.git",
 ) 
