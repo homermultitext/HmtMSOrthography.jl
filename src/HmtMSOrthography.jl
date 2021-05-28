@@ -21,7 +21,10 @@ import PolytonicGreek: augment
 
 using Documenter, DocStringExtensions
 
-export HmtMSOrthography
+export HmtMSOrthography, msGreek
+
+export codepoints
+
 #export atticGreek, vowels, consonants
 #export tokenizeAtticGreek
 #export sortWords

@@ -4,7 +4,7 @@ using Orthography, PolytonicGreek
 using Unicode
 
 
-#include("test_orthosystem.jl")
+include("test_ortho.jl")
 ##include("test_orthography.jl")
 include("test_accentuation.jl")
 #include("test_quantity.jl")
