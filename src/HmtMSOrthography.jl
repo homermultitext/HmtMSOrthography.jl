@@ -23,7 +23,7 @@ using Documenter, DocStringExtensions
 
 export HmtMSOrthography, msGreek
 
-export codepoints
+export codepoints, tokentypes
 
 #export atticGreek, vowels, consonants
 #export tokenizeAtticGreek
