@@ -7,10 +7,10 @@ Pkg.activate(".")
 Pkg.instantiate()
 
 using Documenter, DocStringExtensions
-using HmtMSOrthography
+using ManuscriptOrthography
 
 makedocs(
-    sitename = "HmtMSOrthography.jl",
+    sitename = "ManuscriptOrthography.jl",
     pages = [
         "Home" => "index.md",
         "API documentation" => "apis.md"
@@ -18,5 +18,5 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/homermultitext/HmtMSOrthography.jl.git",
+    repo = "github.com/homermultitext/ManuscriptOrthography.jl.git",
 ) 

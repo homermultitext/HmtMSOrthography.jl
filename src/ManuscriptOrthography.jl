@@ -1,4 +1,4 @@
-module HmtMSOrthography
+module ManuscriptOrthography
 
 using Unicode 
 
@@ -21,7 +21,7 @@ import PolytonicGreek: augment
 
 using Documenter, DocStringExtensions
 
-export HmtMSOrthography, msGreek
+export ManuscriptOrthography, msGreek
 
 export codepoints, tokentypes
 
