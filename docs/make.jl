@@ -12,7 +12,8 @@ using HmtMSOrthography
 makedocs(
     sitename = "HmtMSOrthography.jl",
     pages = [
-        "Home" => "index.md"
+        "Home" => "index.md",
+        "API documentation" => "apis.md"
     ]
 )
 
