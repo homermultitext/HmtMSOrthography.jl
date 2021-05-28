@@ -1,4 +1,3 @@
 # HmtMSOrthography.jl
 
-
-Orthographic systems of manuscripts in Homer Mulittext project.
+A julia package for working the orthographic systems of manuscripts in the Homer Mulittext project.
