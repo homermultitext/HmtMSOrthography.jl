@@ -32,7 +32,7 @@ Instantiate a MSOrthography with correct code points and token types.
 $(SIGNATURES)
 """
 function msGreek()
-    cps = alphabetic() * " \t\n"
+    cps = alphabetic() * " \t\n" * punctuation()
     ttypes = [
         Orthography.LexicalToken,
         Orthography.PunctuationToken,
@@ -85,7 +85,7 @@ $(SIGNATURES)
 Adds character for unit-ending mark.
 """
 function punctuation()
-    string(PolytonicGreek.punctuation(), "⁑")
+    string(PolytonicGreek.punctuation(), " ⸌ ⁑")
 end
 
 """
