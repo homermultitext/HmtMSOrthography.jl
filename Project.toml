@@ -1,7 +1,7 @@
 name = "ManuscriptOrthography"
 uuid = "c7d01213-112e-44c9-bed3-ac95fd3728c7"
 authors = ["Neel Smith <dnsmith.neel@gmail.com>"]
-version = "0.1.6"
+version = "0.1.7"
 
 [deps]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"

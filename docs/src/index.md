@@ -23,7 +23,9 @@ The ManuscriptOrthography module includes a number of punctuation characters tha
 
 ## Examples with transcriptions
 
-| | Transcription | reference |
+Linked references highlight the example in context on a full manuscript page.
+
+| Example | Transcription | reference |
 | :---: | :--- | :---: |
 | ![](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/hmt/vaimg/2017a/VA001RN_0002.tif&RGN=0.1660,0.1741,0.08669,0.01758&WID=200&CVT=JPEG) | *‡ πρόκλου*  | Venetus A manuscript, [folio 1 recto](http://www.homermultitext.org/ict2/?urn=urn:cite2:hmt:vaimg.2017a:VA001RN_0002@0.1660,0.1741,0.08669,0.01758) |
 | ![](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/hmt/vaimg/2017a/VA001RN_0002.tif&RGN=0.4930,0.4293,0.1175,0.01786&WID=300&CVT=JPEG)  |  *¶ ἑλλανικὸς δὲ*  | Venetus A manuscript, [folio 1 recto](http://www.homermultitext.org/ict2/?urn=urn:cite2:hmt:vaimg.2017a:VA001RN_0002@0.4930,0.4293,0.1175,0.01786) |
