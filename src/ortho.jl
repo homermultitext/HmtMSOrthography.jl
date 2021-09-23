@@ -75,7 +75,7 @@ $(SIGNATURES)
 Adds character for second grave accent, and for "extra" diaeresis.
 """
 function alphabetic()
-    string(PolytonicGreek.alphabetic(), "∖", "+")
+    string(PolytonicGreek.alphabetic(), "⸌", "+")
 end
 
 """Compose a string with all punctuation characters.
@@ -85,7 +85,7 @@ $(SIGNATURES)
 Adds character for unit-ending mark.
 """
 function punctuation()
-    string(PolytonicGreek.punctuation(), " ⸌ ⁑")
+    string(PolytonicGreek.punctuation(), "⁑‡¶")
 end
 
 """
