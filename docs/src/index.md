@@ -7,13 +7,13 @@ This package extends the `PolytonicGreek` type with additional punctuation symbo
 The ManuscriptOrthography module includes a number of punctuation characters that are not valid in the standard print orthography of the `PolytonicGreek` module.  
 
 
-- ⁑  (Unicode `\x2051`, "two asterisks aligned veritically"), colloquially "the fishtail," marks the end of a unit, and is standard punctuation to indicate the end of a *scholion*.
-- ‡ (Unicode `\x2021`, "double dagger") marks the beginning of a major section, such as a new book of the *Iliad*.
-- ¶ (Unicode `\x00B6`, "pilcrow sign") occurs in the middle of an extended prose section to mark the beginning of a minor or sub-division.
+- **⁑**  (Unicode `\x2051`, "two asterisks aligned veritically"), colloquially "the fishtail," marks the end of a unit, and is standard punctuation to indicate the end of a *scholion*.
+- **‡** (Unicode `\x2021`, "double dagger") marks the beginning of a major section, such as a new book of the *Iliad*.
+- **¶** (Unicode `\x00B6`, "pilcrow sign") occurs in the middle of an extended prose section to mark the beginning of a minor or sub-division.
 
 ## Manuscript "accents" (colon?)
 
-- ⸌ (Unicode `\x2e0c`, "left raised omission bracket") encodes a mark that resembles a second grave accent.  Its usage is uncertain. It occurs primarily in **μὲ⸌ν** or **δὲ⸌**, and may mark some kind of syntactic colon.
+- **⸌** (Unicode `\x2e0c`, "left raised omission bracket") encodes a mark that resembles a second grave accent.  Its usage is uncertain. It occurs primarily in **μὲ⸌ν** or **δὲ⸌**, and may mark some kind of syntactic colon.
 
 
 
