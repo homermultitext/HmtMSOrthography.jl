@@ -6,11 +6,11 @@
 ```@docs
 codepoints
 tokentypes
+tokenize
 ```
 
 ## Internals
 
 ```@docs
-ManuscriptOrthography.tokenizeMSGreek
 ManuscriptOrthography.splitPunctuation
 ```

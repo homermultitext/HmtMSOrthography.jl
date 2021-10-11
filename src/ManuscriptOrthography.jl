@@ -3,8 +3,10 @@ module ManuscriptOrthography
 using Unicode 
 
 using Orthography
-import Orthography: codepoints
-import Orthography: tokentypes
+import Orthography: OrthographyTrait
+import Orthography: tokentypes 
+import Orthography: codepoints 
+import Orthography: tokenize
 
 using PolytonicGreek
 import PolytonicGreek: syllabify
@@ -23,10 +25,9 @@ using Documenter, DocStringExtensions
 
 export ManuscriptOrthography, msGreek
 
-export codepoints, tokentypes
+export codepoints, tokentypes, tokenize
 
 #export atticGreek, vowels, consonants
-#export tokenizeAtticGreek
 #export sortWords
 
 
