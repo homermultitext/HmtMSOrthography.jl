@@ -2,8 +2,10 @@
 struct MSOrthography <: PolytonicGreek.GreekOrthography
     codepoints
     tokencategories
-    tokenizer
 end
+
+"""Assign value for OrthographyTrait"""
+OrthographyTrait(::Type{MSOrthography}) = IsOrthographicSystem()
 
 
 
@@ -14,8 +16,6 @@ end
 function codepoints(ortho::MSOrthography)
     ortho.codepoints
 end
-
-
 
 """Implement Orthography's tokentypes function for AtticOrthography.
 
@@ -38,17 +38,15 @@ function msGreek()
         Orthography.PunctuationToken,
         Orthography.UnanalyzedToken
     ]
-    MSOrthography(cps, ttypes, tokenizeMSGreek)
+    MSOrthography(cps, ttypes)
 end
-
-
 
 """
 Tokenize a string in orthography of HMT Greek MSS.
 
 $(SIGNATURES)  
 """
-function tokenizeMSGreek(s::AbstractString)
+function tokenize(s::AbstractString, o::MSOrthography)
     wsdelimited = split(s)
     depunctuated = map(s -> splitPunctuation(s), wsdelimited)
     tknstrings = collect(Iterators.flatten(depunctuated))

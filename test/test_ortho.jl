@@ -14,26 +14,26 @@ end
 
 
 @testset "Test categorizing valid characters and strings" begin
-    @test validstring(msGreek(), "⁑")
-    @test validstring(msGreek(), "‡")
-    @test validstring(msGreek(), "¶")
-    @test validstring(msGreek(), "⸌")
+    @test validstring( "⁑", msGreek())
+    @test validstring("‡", msGreek())
+    @test validstring("¶", msGreek())
+    @test validstring("⸌", msGreek())
 end
 
 @testset "Test tokenization" begin
     s = "κακῶς⁑"
-    tkns = tokenize(msGreek(), s)
+    tkns = tokenize(s, msGreek())
     @test length(tkns) == 2
     @test tkns[1].tokencategory == LexicalToken()
     @test tkns[2].tokencategory == PunctuationToken()
     s2 = "ἄειδε,"
-    tkns2 = tokenize(msGreek(), s2)
+    tkns2 = tokenize(s2, msGreek())
     @test length(tkns2) == 2
     @test tkns2[1].tokencategory == LexicalToken()
     @test tkns2[2].tokencategory == PunctuationToken()
 
     s3 = "οἱ δὲ⸌"
-    tkns3 = tokenize(msGreek(), s3)
+    tkns3 = tokenize(s3, msGreek())
     @test length(tkns3) == 2
     @test tkns3[1].tokencategory == LexicalToken()
     @test tkns3[2].tokencategory == LexicalToken()
