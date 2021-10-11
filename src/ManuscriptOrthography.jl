@@ -25,7 +25,7 @@ using Documenter, DocStringExtensions
 
 export ManuscriptOrthography, msGreek
 
-export codepoints, tokentypes
+export codepoints, tokentypes, tokenize
 
 #export atticGreek, vowels, consonants
 #export sortWords
