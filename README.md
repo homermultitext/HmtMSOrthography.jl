@@ -1,3 +1,6 @@
+![build](https://github.com/homermultitext/ManuscriptOrthography.jl/actions/workflows/Documentation.yml/badge.svg)
+
+
 # ManuscriptOrthography.jl
 
 A julia package for working with the orthographic systems of manuscripts in the Homer Mulittext project.
