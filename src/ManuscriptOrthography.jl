@@ -20,6 +20,8 @@ import PolytonicGreek: consonants
 import PolytonicGreek: rmaccents
 import PolytonicGreek: countaccents
 import PolytonicGreek: augment
+import PolytonicGreek: augment_initial
+import PolytonicGreek: augment_medial
 
 using Documenter, DocStringExtensions
 

@@ -13,3 +13,19 @@ end
 function accentsyllable(s::AbstractString, syll, ortho::MSOrthography)  
     accentsyllable(s,syll,literaryGreek())
 end
+
+
+
+
+function augment(ortho::MSOrthography; s::AbstractString = "")
+    PolytonicGreek.augment(literaryGreek(); s = s)
+end
+
+function augment_initial(ortho::MSOrthography)
+    PolytonicGreek.nfkc("ἐ")
+end
+
+
+function augment_medial(ortho::MSOrthography)
+    "ε"
+end
