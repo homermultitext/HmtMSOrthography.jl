@@ -25,9 +25,11 @@ import PolytonicGreek: augment_medial
 
 using Documenter, DocStringExtensions
 
-export ManuscriptOrthography, msGreek
+export MSOrthography, msGreek
 
 export codepoints, tokentypes, tokenize
+
+export augment, augment_initial, augment_medial
 
 #export atticGreek, vowels, consonants
 #export sortWords

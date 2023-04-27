@@ -14,13 +14,15 @@ function accentsyllable(s::AbstractString, syll, ortho::MSOrthography)
     accentsyllable(s,syll,literaryGreek())
 end
 
+function augment(s::AbstractString, ortho::MSOrthography)
+    augment(s, literaryGreek())
+end
 
-
-
+#=
 function augment(ortho::MSOrthography; s::AbstractString = "")
     PolytonicGreek.augment(literaryGreek(); s = s)
 end
-
+=#
 function augment_initial(ortho::MSOrthography)
     PolytonicGreek.nfkc("ἐ")
 end
