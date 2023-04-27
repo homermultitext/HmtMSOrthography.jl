@@ -1,7 +1,7 @@
 name = "ManuscriptOrthography"
 uuid = "c7d01213-112e-44c9-bed3-ac95fd3728c7"
 authors = ["Neel Smith <dnsmith.neel@gmail.com>"]
-version = "0.4.1"
+version = "0.4.2"
 
 [deps]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
