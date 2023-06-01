@@ -1,7 +1,7 @@
 name = "ManuscriptOrthography"
 uuid = "c7d01213-112e-44c9-bed3-ac95fd3728c7"
 authors = ["Neel Smith <dnsmith.neel@gmail.com>"]
-version = "0.4.3"
+version = "0.4.4"
 
 [deps]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -15,7 +15,7 @@ Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 [compat]
 DocStringExtensions = "0.8, 0.9"
 Documenter = "0.27"
-Orthography = "0.18"
+Orthography = "0.21"
 PolytonicGreek = "0.18"
 TestSetExtensions = "2"
 julia = "1"
