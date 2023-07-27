@@ -22,6 +22,6 @@
     @test augment_initial(msortho) == nfkc("ἐ")
     @test augment_medial(msortho) == "ε"
    
-    @test augment(nfkc("ἐκ#φερε"), msortho) == nfkc("ἐξεφερε")
+    @test augment(nfkc("ἐκ#φερε"), msortho) == nfkc("ἐξ#εφερε")
 
 end
